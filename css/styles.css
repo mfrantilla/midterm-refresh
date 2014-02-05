@@ -1,3 +1,56 @@
 body {
 	background: url("../img/bg.png");
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVIGATION - All (Base Styling) links */
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+
+/* NAVIGATION - LINK STATES */
+nav a:link,
+nav a:visited {
+	background: red;
+	padding: 20px 20px 20px 40px;
+}
+
+nav a:hover,
+nav a:active {
+	background: green;)
+}
+/* NAVIGATION - First link */
+#first a:hover {
+	background: url("../img/link-1.png") no-repeat left center;
+}
+
+/* Style aside image*/
+img {
+	border-radius: 10px;
+}
+section img,
+aside img {
+
+}
+
+section h3+img{
+	border: 2px solid blue;
+}
+
+h3 + p,
+section img +p {
+	color: teal;
+}
+
+aside li ul>li {
+	background: red;
+}
+
+
+
+/* Helper Classes */
+.showgrid {
+	background: url("../img/grid-bg.png");
 }

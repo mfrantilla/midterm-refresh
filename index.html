@@ -2,67 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Document</title>
+  <title>Midterm Refresh</title>
 	
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/grid.css">				
-  <link rel="stylesheet" href="css/styles.css">	
+  <link rel="stylesheet" href="css/grid.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
 	
 </head>
 <body>
-	<header>
-		<h1>Website</h1>
-	    <img src="img/logo-24.png" alt="">
+	
+<div class="container showgrid">
+
+	<header class="grid_3 alpha">
+		<img src="img/logo-24.png" alt="">
 	</header>
-	<nav>
+
+	<nav class="grid_9 omega">
 		<ul>
-		  <li><a href="">Main Nav</a></li>
-  		  <li><a href="">Main Nav</a></li>
-  		  <li><a href="">Main Nav</a></li>
-		</ul>
-	</nav>
+		  <li id="first"><a href="#">Link A</a></li>
+		  <li id="second"><a href="#">Link B</a></li>
+		  <li id="third"><a href="#">Link C</a></li>
+		</ul>						
+	</nav>		
+  
+	<article class="grid_12">
+		
+		<section class="grid_4 alpha">
+			<h3>&#10026;Section A</h3>
+			
+			<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </em></p>
 
-	<article>
+			<p>Tenetur, distinctio, eos placeat mollitia deserunt natus molestiae fugiat dolore veritatis fugit non nisi perspiciatis nihil in accusantium harum quod quidem temporibus!</p>
 
+			<p>Tenetur, distinctio, eos placeat mollitia deserunt natus molestiae fugiat dolore veritatis fugit non nisi perspiciatis nihil in accusantium harum quod quidem temporibus!</p>
+		</section>	
 
-		<section>
+		<section class="grid_4">
+			<h3>&#10026;Section B</h3>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		</section>
-
-		<section>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		</section>
-
-
-		<aside>
+			<img src="http://placehold.it/200x150" alt="sample">
+			<img src="http://placehold.it/200x150" alt="sample">
+			<img src="http://placehold.it/200x150" alt="sample">
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, distinctio, eos placeat mollitia deserunt natus molestiae fugiat dolore veritatis fugit non nisi perspiciatis nihil in accusantium harum quod quidem temporibus!</p>
+		</section>	
+	
+		<aside class="grid_4 omega">
+			<h3>Aside</h3>
+			<img src="http://placehold.it/200x150" alt="sample">
 			<ul>
-		  		<li><a href="">SidebarNav</a></li>
-  		  		<li><a href="">SidebarNav</a></li>
-  		  		<li><a href="">SidebarNav</a></li>
-			</ul>
+		  		<li><a href="#">Aside Link A</a></li>
+		  		<li><a href="#">Aside Link B</a></li>
+		  		<li><a href="#">Aside Link C</a>
+		  			<ul>
+		  		<li><a href="#">Aside Link A</a></li>
+		  		<li><a href="#">Aside Link B</a></li>
+		  		<li><a href="#">Aside Link C</a></li>
+				</ul>	
 
+		  		</li>
+			</ul>	
 		</aside>
 
 	</article>
 
-
-	<footer>
-		<p>Copyright 2014</p>
+	<footer class="grid_12">
+		<p>Copyright  &#169; 2014</p>
 	</footer>
+	
+	<div class="clear"></div>
+	
+</div>
 
 </body>
 </html>
